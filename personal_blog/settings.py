@@ -16,9 +16,6 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 
-# Quick-start development settings - unsuitable for production
-# See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
-
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'django-insecure-$-f8he20=6vi!6yy6xmbrshc0o813=yx_(i@35(bcm_7$j-l63'
 
@@ -26,9 +23,6 @@ SECRET_KEY = 'django-insecure-$-f8he20=6vi!6yy6xmbrshc0o813=yx_(i@35(bcm_7$j-l63
 DEBUG = True
 
 ALLOWED_HOSTS = []
-
-
-# Application definition
 
 INSTALLED_APPS = [
     'blog.apps.BlogConfig',
